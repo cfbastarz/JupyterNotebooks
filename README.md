@@ -1,4 +1,4 @@
-# jupyter_notebooks
+# JupyterNotebooks
 
 Coleção de notebooks do Jupyter sobre assuntos variados. Em geral, a descrição dos assuntos está anotada dentro dos notebooks.
 
