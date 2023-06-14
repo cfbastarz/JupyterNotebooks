@@ -1,0 +1,271 @@
+sources:
+
+  scantec_gl_rmse_dtc:
+    description: Root Mean Square Error for the DTC experiment (gl area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/gl/RMSEDTC_20230216002023030300F.csv
+
+  scantec_gl_mean_dtc:
+    description: Mean Error for the DTC experiment (gl area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/gl/MEANDTC_20230216002023030300F.csv
+
+  scantec_gl_vies_dtc:
+    description: Bias for the DTC experiment (gl area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/gl/VIESDTC_20230216002023030300F.csv
+
+  scantec_hn_rmse_dtc:
+    description: Root Mean Square Error for the DTC experiment (hn area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/hn/RMSEDTC_20230216002023030300F.csv
+
+  scantec_hn_mean_dtc:
+    description: Mean Error for the DTC experiment (hn area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/hn/MEANDTC_20230216002023030300F.csv
+
+  scantec_hn_vies_dtc:
+    description: Bias for the DTC experiment (hn area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/hn/VIESDTC_20230216002023030300F.csv
+
+  scantec_tr_rmse_dtc:
+    description: Root Mean Square Error for the DTC experiment (tr area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/tr/RMSEDTC_20230216002023030300F.csv
+
+  scantec_tr_mean_dtc:
+    description: Mean Error for the DTC experiment (tr area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/tr/MEANDTC_20230216002023030300F.csv
+
+  scantec_tr_vies_dtc:
+    description: Bias for the DTC experiment (tr area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/tr/VIESDTC_20230216002023030300F.csv
+
+  scantec_hs_rmse_dtc:
+    description: Root Mean Square Error for the DTC experiment (hs area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/hs/RMSEDTC_20230216002023030300F.csv
+
+  scantec_hs_mean_dtc:
+    description: Mean Error for the DTC experiment (hs area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/hs/MEANDTC_20230216002023030300F.csv
+
+  scantec_hs_vies_dtc:
+    description: Bias for the DTC experiment (hs area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/hs/VIESDTC_20230216002023030300F.csv
+
+  scantec_as_rmse_dtc:
+    description: Root Mean Square Error for the DTC experiment (as area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/as/RMSEDTC_20230216002023030300F.csv
+
+  scantec_as_mean_dtc:
+    description: Mean Error for the DTC experiment (as area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/as/MEANDTC_20230216002023030300F.csv
+
+  scantec_as_vies_dtc:
+    description: Bias for the DTC experiment (as area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/as/VIESDTC_20230216002023030300F.csv
+
+  scantec_gl_rmse_bamh:
+    description: Root Mean Square Error for the BAMH experiment (gl area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/gl/RMSEBAMH_20230216002023030300F.csv
+
+  scantec_gl_mean_bamh:
+    description: Mean Error for the BAMH experiment (gl area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/gl/MEANBAMH_20230216002023030300F.csv
+
+  scantec_gl_vies_bamh:
+    description: Bias for the BAMH experiment (gl area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/gl/VIESBAMH_20230216002023030300F.csv
+
+  scantec_hn_rmse_bamh:
+    description: Root Mean Square Error for the BAMH experiment (hn area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/hn/RMSEBAMH_20230216002023030300F.csv
+
+  scantec_hn_mean_bamh:
+    description: Mean Error for the BAMH experiment (hn area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/hn/MEANBAMH_20230216002023030300F.csv
+
+  scantec_hn_vies_bamh:
+    description: Bias for the BAMH experiment (hn area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/hn/VIESBAMH_20230216002023030300F.csv
+
+  scantec_tr_rmse_bamh:
+    description: Root Mean Square Error for the BAMH experiment (tr area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/tr/RMSEBAMH_20230216002023030300F.csv
+
+  scantec_tr_mean_bamh:
+    description: Mean Error for the BAMH experiment (tr area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/tr/MEANBAMH_20230216002023030300F.csv
+
+  scantec_tr_vies_bamh:
+    description: Bias for the BAMH experiment (tr area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/tr/VIESBAMH_20230216002023030300F.csv
+
+  scantec_hs_rmse_bamh:
+    description: Root Mean Square Error for the BAMH experiment (hs area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/hs/RMSEBAMH_20230216002023030300F.csv
+
+  scantec_hs_mean_bamh:
+    description: Mean Error for the BAMH experiment (hs area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/hs/MEANBAMH_20230216002023030300F.csv
+
+  scantec_hs_vies_bamh:
+    description: Bias for the BAMH experiment (hs area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/hs/VIESBAMH_20230216002023030300F.csv
+
+  scantec_as_rmse_bamh:
+    description: Root Mean Square Error for the BAMH experiment (as area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/as/RMSEBAMH_20230216002023030300F.csv
+
+  scantec_as_mean_bamh:
+    description: Mean Error for the BAMH experiment (as area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/as/MEANBAMH_20230216002023030300F.csv
+
+  scantec_as_vies_bamh:
+    description: Bias for the BAMH experiment (as area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/as/VIESBAMH_20230216002023030300F.csv
+
+  scantec_gl_rmse_bamh0:
+    description: Root Mean Square Error for the BAMH0 experiment (gl area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/gl/RMSEBAMH0_20230216002023030300F.csv
+
+  scantec_gl_mean_bamh0:
+    description: Mean Error for the BAMH0 experiment (gl area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/gl/MEANBAMH0_20230216002023030300F.csv
+
+  scantec_gl_vies_bamh0:
+    description: Bias for the BAMH0 experiment (gl area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/gl/VIESBAMH0_20230216002023030300F.csv
+
+  scantec_hn_rmse_bamh0:
+    description: Root Mean Square Error for the BAMH0 experiment (hn area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/hn/RMSEBAMH0_20230216002023030300F.csv
+
+  scantec_hn_mean_bamh0:
+    description: Mean Error for the BAMH0 experiment (hn area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/hn/MEANBAMH0_20230216002023030300F.csv
+
+  scantec_hn_vies_bamh0:
+    description: Bias for the BAMH0 experiment (hn area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/hn/VIESBAMH0_20230216002023030300F.csv
+
+  scantec_tr_rmse_bamh0:
+    description: Root Mean Square Error for the BAMH0 experiment (tr area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/tr/RMSEBAMH0_20230216002023030300F.csv
+
+  scantec_tr_mean_bamh0:
+    description: Mean Error for the BAMH0 experiment (tr area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/tr/MEANBAMH0_20230216002023030300F.csv
+
+  scantec_tr_vies_bamh0:
+    description: Bias for the BAMH0 experiment (tr area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/tr/VIESBAMH0_20230216002023030300F.csv
+
+  scantec_hs_rmse_bamh0:
+    description: Root Mean Square Error for the BAMH0 experiment (hs area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/hs/RMSEBAMH0_20230216002023030300F.csv
+
+  scantec_hs_mean_bamh0:
+    description: Mean Error for the BAMH0 experiment (hs area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/hs/MEANBAMH0_20230216002023030300F.csv
+
+  scantec_hs_vies_bamh0:
+    description: Bias for the BAMH0 experiment (hs area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/hs/VIESBAMH0_20230216002023030300F.csv
+
+  scantec_as_rmse_bamh0:
+    description: Root Mean Square Error for the BAMH0 experiment (as area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/as/RMSEBAMH0_20230216002023030300F.csv
+
+  scantec_as_mean_bamh0:
+    description: Mean Error for the BAMH0 experiment (as area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/as/MEANBAMH0_20230216002023030300F.csv
+
+  scantec_as_vies_bamh0:
+    description: Bias for the BAMH0 experiment (as area)
+    driver: csv
+    args:
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/dataout/as/VIESBAMH0_20230216002023030300F.csv

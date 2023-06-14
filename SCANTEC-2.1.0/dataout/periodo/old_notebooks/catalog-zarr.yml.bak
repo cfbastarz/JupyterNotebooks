@@ -1,0 +1,15 @@
+sources:
+  scantec_gl_rmse_dtc:
+    args:
+      consolidated: true
+      urlpath: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/old/dataout/gl/RMSEDTC_20230216002023030300F.zarr
+    description: Teste
+    driver: intake_xarray.xzarr.ZarrSource
+    metadata:
+      catalog_dir: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/old
+      tags:
+        - atmosphere
+        - scantec
+        - bam
+        - data_assimilation
+      url: http://ftp1.cptec.inpe.br/pesquisa/das/carlos.bastarz/SCANTEC-2.1.0/old
